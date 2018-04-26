@@ -118,6 +118,15 @@ const webpackConfig = merge(baseWebpackConfig, {
       }
     ]),
 
+    // copy redirects file
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, '../root'),
+        to: config.build.assetsRoot,
+        ignore: ['.*']
+      }
+    ]),
+
     // service worker caching
     new SWPrecacheWebpackPlugin({
       cacheId: 'papergolf',
