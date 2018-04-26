@@ -40,7 +40,13 @@
       <noscript>
         Bitte aktiviere JavaScript in deinem Browser.
       </noscript>
-      <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+      <script>
+        (function() {
+          if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+          }
+        })();
+      </script>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
