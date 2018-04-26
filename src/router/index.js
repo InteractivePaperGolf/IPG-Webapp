@@ -12,12 +12,12 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/welcome',
       name: 'WelcomeView',
       component: WelcomeView
     },
     {
-      path: '/play',
+      path: '/',
       component: AppView,
       children: [
         {
