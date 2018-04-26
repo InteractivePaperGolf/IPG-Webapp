@@ -1,0 +1,72 @@
+// ##################################################
+// Game
+// ##################################################
+
+#game {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 2em;
+  border-radius: 0;
+
+  &:hover {
+    transform: initial;
+    box-shadow: initial;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.card-stack {
+  position: relative;
+  margin-bottom: 5.5rem;
+  height: calc(380px + 10vw);
+  width: calc(234px + 6.18vw);
+  perspective: 1000px;
+}
+
+// Breakpoint
+
+@include respond-to($breakpoint-small) {
+  #game {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-stack {
+    height: 480px;
+    width: 296px;
+  }
+
+  .next-btn {
+    position: static;
+    width: auto;
+    border-radius: 0.8em;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 20px 30px 0 rgba(0,0,0,0.15);
+    }
+  }
+}

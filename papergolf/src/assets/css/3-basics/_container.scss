@@ -1,0 +1,17 @@
+// ##################################################
+// Container
+// ##################################################
+
+.wrapper--padding {
+  padding: 0 $l-wrapper-padding;
+}
+
+.wrapper {
+  padding: 0 $l-wrapper-padding;
+  margin: 0 auto;
+  max-width: $l-wrapper-large;
+}
+
+.wrapper--small {
+  max-width: $l-wrapper-small;
+}

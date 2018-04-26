@@ -1,0 +1,67 @@
+// ##################################################
+// Variables
+// ##################################################
+
+// ######################
+// Colors
+// ######################
+
+// Brand
+$c-green: #04C956;
+$c-green-light: #61FF7E;
+
+// UI
+$c-background: #FFFFFF;
+$c-background-dark: #F8F9Fa;
+$c-background-dark-highlight: #F1F3F5;
+$c-font-light: #868E96;
+$c-font: #495057;
+$c-font-dark: #343A40;
+$c-neutral: #4263eb;
+$c-danger: #F03E3E;
+
+// ######################
+// Fonts
+// ######################
+
+// Family
+$f-family: 'proxima-nova', sans-serif;
+$f-family-heading: 'proxima-soft', sans-serif;
+
+// Weight
+$f-weight: 300;
+$f-weight-bolder: 400;
+$f-weight-heading: 700;
+$f-weight-heading-bolder: 800;
+
+// Line-height
+$f-line-height: 1.5;
+
+// Size
+$f-mini-size1: 11px;
+$f-mini-size2: 10px;
+$f-small-size1: 13px;
+$f-small-size2: 14px;
+$f-p-size1: 16px;
+$f-p-size2: 18px;
+$f-h4-size1: 19px;
+$f-h4-size2: 24px;
+$f-h3-size1: 23px;
+$f-h3-size2: 32px;
+$f-h2-size1: 28px;
+$f-h2-size2: 43px;
+$f-h1-size1: 33px;
+$f-h1-size2: 57px;
+
+// Font Breakpoints
+$f-breakpoint-min: 640px;
+$f-breakpoint-max: 1140px;
+
+// ######################
+// Layout
+// ######################
+
+// Wrapper
+$l-wrapper-padding: 20px;
+$l-wrapper-small: 768px;
+$l-wrapper-large: 1024px;

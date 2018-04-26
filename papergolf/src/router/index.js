@@ -18,7 +18,6 @@ export default new Router({
     },
     {
       path: '/play',
-      name: 'AppView',
       component: AppView,
       children: [
         {

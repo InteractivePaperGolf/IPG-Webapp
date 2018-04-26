@@ -1,0 +1,91 @@
+// ##################################################
+// Typography
+// ##################################################
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: $f-family;
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-p-size1, $f-p-size2);
+  font-weight: $f-weight;
+  line-height: $f-line-height;
+  color: $c-font;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $f-family-heading;
+  font-weight: $f-weight-heading;
+  color: $c-font-dark;
+}
+
+h1,
+.h1 {
+  font-weight: $f-weight-heading-bolder;
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-h1-size1, $f-h1-size2);
+}
+
+h2,
+.h2 {
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-h2-size1, $f-h2-size2);
+}
+
+h3,
+.h3 {
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-h3-size1, $f-h3-size2);
+}
+
+h4,
+.h4 {
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-h4-size1, $f-h4-size2);
+}
+
+.small {
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-small-size1, $f-small-size2);
+}
+
+.mini {
+  @include fluid-type(font-size, $f-breakpoint-min, $f-breakpoint-max, $f-mini-size1, $f-mini-size2);
+}
+
+.light {
+  font-weight: $f-weight;
+}
+
+.normal {
+  font-weight: $f-weight-bolder;
+}
+
+.bold {
+  font-family: $f-family-heading;
+  font-weight: $f-weight-heading;
+}
+
+.extrabold {
+  font-family: $f-family-heading;
+  font-weight: $f-weight-heading-bolder;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.positiv {
+  color: $c-green;
+}
+
+.neutral {
+  color: $c-neutral;
+}
+
+.danger {
+  color: $c-danger;
+}

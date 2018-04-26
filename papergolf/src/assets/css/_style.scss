@@ -11,14 +11,17 @@
 @import '2-helpers/mixins';
 
 // Basics
+@import '3-basics/base';
 @import '3-basics/typography';
-
+@import '3-basics/container';
 
 // Layout
-
+@import '4-layout/navbar';
 
 // Modules
-
+@import '5-modules/btn';
+@import '5-modules/card';
 
 // Pages
-
+@import '6-pages/app';
+@import '6-pages/game';

@@ -1,0 +1,29 @@
+// ##################################################
+// App
+// ##################################################
+
+#app-game {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  flex: 1;
+  padding-top: 10vh;
+}
+
+// Breakpoint
+
+@include respond-to($breakpoint-small) {
+  #app-game {
+    flex-direction: row;
+  }
+
+  .content {
+    padding: 50px 0;
+    width: 100%;
+  }
+}

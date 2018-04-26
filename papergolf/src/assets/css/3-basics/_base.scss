@@ -1,0 +1,27 @@
+// ##################################################
+// Base
+// ##################################################
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $c-background;
+  background-image: url('../static/img/ui/bg-pattern.svg');
+  background-size: 20px;
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

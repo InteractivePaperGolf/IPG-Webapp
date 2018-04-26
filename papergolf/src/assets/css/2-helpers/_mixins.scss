@@ -1,0 +1,44 @@
+// ##################################################
+// Mixins
+// ##################################################
+
+// ######################
+// Breakpoints
+// ######################
+
+$l-breakpoint1: 48.000em; // 768px (Height)
+$l-breakpoint2: 71.250em; // 1140px
+$l-breakpoint3: 90.000em; // 1440px
+
+$breakpoint-small: '(min-width: #{$l-breakpoint2}) and (min-height: #{$l-breakpoint1})';
+$breakpoint-large: '(min-width: #{$l-breakpoint3}) and (min-height: #{$l-breakpoint1})';
+
+@mixin respond-to($media) {
+	@media only screen and #{$media} {
+			@content;
+	}
+}
+
+// ######################
+// Typography
+// ######################
+
+@mixin fluid-type($properties, $min-screen, $max-screen, $min-value, $max-value) {
+	& {
+		@each $property in $properties {
+			#{$property}: $min-value;
+		}
+
+		@media screen and (min-width: $min-screen) {
+			@each $property in $properties {
+				#{$property}: calc-interpolation($min-screen, $min-value, $max-screen, $max-value); 
+			}
+		}
+
+		@media screen and (min-width: $max-screen) {
+			@each $property in $properties {
+				#{$property}: $max-value;
+			}
+		}
+	}
+}
