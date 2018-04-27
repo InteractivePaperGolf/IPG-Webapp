@@ -1,0 +1,35 @@
+.form {
+
+  &__group:not(:last-of-type) {
+    margin-bottom: 2em;
+  }
+
+  &__label {
+    display: block;
+    color: $c-green;
+    font-family: $f-family-heading;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 0.3em;
+    border: none;
+    font-weight: 300;
+    background-color: $c-background-dark;
+    color: $c-font;
+  }
+
+  & a {
+    color: $c-green
+  }
+
+  textarea {
+    min-height: 10em;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}

@@ -16,6 +16,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 h1,
@@ -88,4 +89,23 @@ h4,
 
 .danger {
   color: $c-danger;
+}
+
+::selection {
+  background-color: $c-green;
+  color: $c-background;
+}
+
+// Classes
+
+.site-title {
+  color: $c-green;
+}
+
+// Breakpoint
+
+@include respond-to($breakpoint-small) {
+  .site-title {
+    margin-top: 0;
+  }
 }

@@ -13,15 +13,15 @@
                         <div class="card__content">
                             <div class="card__badge positiv" v-if="card.type == 'positiv'">
                                 <span></span>
-                                <p class="card__type">positiv</p>
+                                <p class="card__type normal">positiv</p>
                             </div>
                             <div class="card__badge neutral" v-if="card.type == 'neutral'">
                                 <span></span>
-                                <p class="card__type">neutral</p>
+                                <p class="card__type normal">neutral</p>
                             </div>
                             <div class="card__badge danger" v-if="card.type == 'negativ'">
                                 <span></span>
-                                <p class="card__type">negativ</p>
+                                <p class="card__type normal">negativ</p>
                             </div>
                             <div class="card__text">
                                 <p class="card__desc italic small">{{ card.desc }}</p>

@@ -5,7 +5,7 @@
 #app-game {
   display: flex;
   flex-direction: column;
-  max-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -13,9 +13,43 @@
 .content {
   flex: 1;
   padding-top: 10vh;
+  padding-bottom: 50px;
+}
+
+.scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.turn-overlay {
+  position: fixed;
+  z-index: 10000;
+  background-color: $c-background;
+  background-image: url('../static/img/ui/bg-pattern.svg');
+  background-size: 20px;
+  background-repeat: repeat;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  img {
+    width: 30vh;
+  }
 }
 
 // Breakpoint
+
+@include respond-to($breakpoint-too-small) {
+  .turn-overlay {
+    display: flex;
+  }
+}
 
 @include respond-to($breakpoint-small) {
   #app-game {

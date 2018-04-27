@@ -8,6 +8,11 @@
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 1000;
+
+  &--background {
+    background-color: rgba($c-background, 0.5);
+  }
 
   &__btn {
     display: none;
@@ -23,9 +28,19 @@
     * {
       max-height: 100%;
     }
+
+    > a {
+      display: flex;
+      align-items: center;
+    }
   }
 
   &__logo {
+
+    &--mobile {
+      height: 4vh;
+    }
+
     &--desktop {
       display: none;
     }

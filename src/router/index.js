@@ -1,21 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import WelcomeView from '@/components/WelcomeView'
 import AppView from '@/components/AppView'
 import GameView from '@/components/app/GameView'
 import RulesView from '@/components/app/RulesView'
 import BoardView from '@/components/app/BoardView'
+import HelpView from '@/components/app/HelpView'
+import SentView from '@/components/app/SentView'
 
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   routes: [
-    {
-      path: '/welcome',
-      name: 'WelcomeView',
-      component: WelcomeView
-    },
     {
       path: '/',
       component: AppView,
@@ -34,6 +30,16 @@ export default new Router({
           path: 'board',
           name: 'BoardView',
           component: BoardView
+        },
+        {
+          path: 'help',
+          name: 'HelpView',
+          component: HelpView
+        },
+        {
+          path: 'sent',
+          name: 'SentView',
+          component: SentView
         }
       ]
     }

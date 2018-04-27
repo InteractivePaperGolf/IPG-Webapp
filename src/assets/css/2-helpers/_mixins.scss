@@ -6,10 +6,12 @@
 // Breakpoints
 // ######################
 
+$l-breakpoint0: 34.375em; // 550px (Height)
 $l-breakpoint1: 48.000em; // 768px (Height)
 $l-breakpoint2: 71.250em; // 1140px
 $l-breakpoint3: 90.000em; // 1440px
 
+$breakpoint-too-small: '(max-height: #{$l-breakpoint0}) and (orientation: landscape)';
 $breakpoint-small: '(min-width: #{$l-breakpoint2}) and (min-height: #{$l-breakpoint1})';
 $breakpoint-large: '(min-width: #{$l-breakpoint3}) and (min-height: #{$l-breakpoint1})';
 
