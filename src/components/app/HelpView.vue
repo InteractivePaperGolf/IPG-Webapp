@@ -4,7 +4,7 @@
             <h1 class="site-title">Hilfe</h1>
             <p>Du hast Fragen, Feedback, etc? <br> <span class="h4 positiv bold">Dann nur her damit!</span></p>
             <h2>Kontaktformular</h2>
-            <form name="contact" method="POST" class="form" netlify>
+            <form name="contact" class="form" netlify>
                 <div class="form__group">
                     <p class="form__label">An:</p>
                     <a href="mailto:contact@papergolf.ch" class="form__input">contact@papergolf.ch</a>
