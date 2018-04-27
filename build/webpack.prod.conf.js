@@ -131,7 +131,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     new SWPrecacheWebpackPlugin({
       cacheId: 'papergolf',
       filename: 'service-worker.js',
-      staticFileGlobs: ['dist/**/*.{js,html,css,png,jpg}'],
+      staticFileGlobs: ['dist/**/*.{js,html,css,png,jpg,svg}'],
       minify: true,
       stripPrefix: 'dist/',
       runtimeCaching: [
