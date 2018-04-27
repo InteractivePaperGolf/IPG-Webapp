@@ -5,7 +5,6 @@ import GameView from '@/components/app/GameView'
 import RulesView from '@/components/app/RulesView'
 import BoardView from '@/components/app/BoardView'
 import HelpView from '@/components/app/HelpView'
-import SentView from '@/components/app/SentView'
 
 Vue.use(Router)
 
@@ -35,11 +34,6 @@ export default new Router({
           path: 'help',
           name: 'HelpView',
           component: HelpView
-        },
-        {
-          path: 'sent',
-          name: 'SentView',
-          component: SentView
         }
       ]
     }
