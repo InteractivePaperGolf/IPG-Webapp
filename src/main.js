@@ -9,6 +9,10 @@ Vue.config.productionTip = false
 
 // Plugins
 
+// Touch support
+import Vue2TouchEvents from 'vue2-touch-events'
+Vue.use(Vue2TouchEvents)
+
 // Icons
 import {VueFeatherIconsSsr as icon} from 'vue-feather-icons-ssr'
 Vue.component('icon', icon)
