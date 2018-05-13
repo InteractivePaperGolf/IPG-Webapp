@@ -12,6 +12,13 @@
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   z-index: 10;
+
+  * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
   
   &__front, &__back {
     background-color: $c-background;

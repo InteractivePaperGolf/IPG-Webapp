@@ -1,6 +1,6 @@
 <template>
     <main id="game" class="wrapper">
-        <ul class="card-stack" v-touch:swipe.left="nextCard">
+        <ul class="card-stack" v-touch:swipe="nextCard">
             <div class="perspective">
                 <transition name="card" mode="out-in">
                     <li class="card" v-if="showCard">

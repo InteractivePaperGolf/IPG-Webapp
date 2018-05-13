@@ -36,12 +36,11 @@ export default new Vuex.Store({
   },
   mutations: {
     generateStack: state => {
-      var tempArray = []
       var frequency = 0
       state.stackEmpty = false
-      state.cardList.forEach(function(card) {
-        frequency = card.frequency;
-        for(var i = 0; i < frequency; i++) {
+      state.cardList.forEach(function (card) {
+        frequency = card.frequency
+        for (var i = 0; i < frequency; i++) {
           state.cardStack.push(card)
         }
       })
@@ -76,15 +75,15 @@ export default new Vuex.Store({
     newStack: context => {
       context.commit('generateStack')
       context.commit('randomize')
-      context.state.cardStack.unshift({ type: 'start'});
+      context.state.cardStack.unshift({ type: 'start' })
       context.commit('addCard')
     },
     nextCard: context => {
       context.commit('changeShowCard')
-      setTimeout(function() {
+      setTimeout(function () {
         context.commit('removeCard')
         context.commit('addCard')
-        if(context.state.cardStack.length < 1) {
+        if (context.state.cardStack.length < 1) {
           context.commit('generateStack')
           context.commit('randomize')
         }
