@@ -40,7 +40,12 @@
   margin-bottom: 5.5rem;
   height: calc(380px + 10vw);
   width: calc(234px + 6.18vw);
+}
+
+.perspective {
+  position: relative;
   perspective: 1000px;
+  z-index: 10;
 }
 
 // Breakpoint

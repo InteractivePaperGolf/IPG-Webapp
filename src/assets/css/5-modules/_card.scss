@@ -9,8 +9,6 @@
   position: absolute;
   border-radius: 20px;
   box-shadow: 0 5px 20px 0 $c-background-dark-highlight;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   z-index: 10;
@@ -32,8 +30,8 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     z-index: 2;
+    overflow: hidden;
     transform: rotateY(0deg);
 
     &.start {
@@ -149,16 +147,16 @@
 
   &--bg {
     z-index: 0;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg) translateZ(-1000px);
+    transform: rotateY(180deg) translateZ(-1000px);
   }
 }
 
 // Animations
 
 .card-enter-active {
-  -webkit-transition: all 0.8s ease 0.1s;
-  transition: all 0.8s ease 0.1s;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
 
 .card-leave-active {
