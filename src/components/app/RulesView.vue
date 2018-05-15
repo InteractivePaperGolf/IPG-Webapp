@@ -2,7 +2,7 @@
     <main id="rules">
         <div class="wrapper wrapper--small">
             <h1 class="site-title">Regeln</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dicta eos dolores, tenetur at totam iste veniam omnis nulla laudantium eius similique explicabo vero doloremque. Voluptatibus sint dolores corporis illum commodi odit quo expedita in perspiciatis ipsum quasi totam nisi facilis, natus dolorem officia laboriosam. Maxime nam eius vel inventore.</p>
+            <p>Wie jedes Spiel hat auch Papergolf bestimmte Regeln. Doch keine Angst, es sind nicht wirklich viele. Wenn du das Spiel noch nicht kennst, kannst du dir gerne die Videoanleitung unten anschauen. Dort erfährst du in kompakter Form, wie das Spiel funktioniert und was du beachten musst.</p>
             <h2>Videoanleitung</h2>
         </div>
         <div class="wrapper">
@@ -12,7 +12,7 @@
         </div>
         <div class="wrapper wrapper--small">
             <h2>Und hier noch schriftlich...</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque atque similique ratione nostrum consequatur amet, necessitatibus voluptatum ut dolorum doloremque asperiores esse commodi, neque porro natus inventore magnam mollitia numquam.</p>
+            <p>Wenn du dir Anleitungen lieber durchliest, haben wir hier für dich alle Regeln auch noch in Textform zusammengefasst:</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque atque similique ratione nostrum consequatur amet, necessitatibus voluptatum ut dolorum doloremque asperiores esse commodi, neque porro natus inventore magnam mollitia numquam.</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque atque similique ratione nostrum consequatur amet, necessitatibus voluptatum ut dolorum doloremque asperiores esse commodi, neque porro natus inventore magnam mollitia numquam.</p>
             <h3>Random Subtitle</h3>
