@@ -17,7 +17,7 @@
             <p>Um das Spiel schwieriger zu machen, baue Hindernisse ein. Unserer Meinung nach ist es am Besten, wenn du von Bahn zu Bahn immer ein wenig mehr bzw. schwierigere Herausforderungen einbaust. Der Bunker (Sandloch) oder das Wasserhindernis sind natürlich zu empfehlen (sie kommen auch im richtigen Golf vor und sind manchmal auch Teil der Aktionskarten), sei aber ruhig erfinderisch und kreiere deine eigene Hindernisse (z.B. Portale, die einen nach vorne bringen, etc.).</p>
             <h4>Benutze eine(n) andere(n) Stift(farbe) für die Bahn</h4>
             <p>Wenn du beispielsweise die Bahn mit einem schwarzen Fineliner aufzeichnest und dann auch mit einem solchen spielst, kann es sein, dass der Spielplan unübersichtlich wird. Deshalb empfehlen wir dir, beispielsweise einen dicken Stift zu verwenden um die Bahn kennzuzeichnen und dann mit einem dünnen zu spielen. Damit fällt die Unterscheidung deutlich leichter.</p>
-            <h4 class="positiv">Sende uns deine Kreationen</h4>
+            <h3 class="positiv">Sende uns deine Kreationen</h3>
             <p>Wenn du denkst, dass dein Spielplan (oder Teile davon) auch anderen Spielern gefallen könnte, sende uns ein Foto oder PDF davon an <a href="mailto:contact@papergolf.ch" class="positiv">contact@papergolf.ch</a>. Vielleicht übernehmen wir Elemente oder gar den ganzen Spielplan von dir und stellen ihn allen Papergolf Spielern zur Verfügung!</p>
             <p class="h4 bold positiv">Und jetzt viel Spass beim Spielen!</p>
         </div>
