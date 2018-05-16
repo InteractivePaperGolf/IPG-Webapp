@@ -13,7 +13,7 @@
         </div>
         <div class="wrapper wrapper--small">
             <h2>Und hier noch schriftlich...</h2>
-            <p>Nun du hast dich also doch noch fürs Lesen entschieden :)</p>
+            <p>Nun, du hast dich also doch noch fürs Lesen entschieden :)</p>
             <p>Um Papergolf zu Spielen braucht es nicht mehr als ein Stift und ein Blatt Papier.
             Zuerst müssen die Spielbahnen gezeichnet oder ausgedruckt werden. Beispiele dazu findest du auf unserer Website. Ebenfalls auf unserer Webseite findest du viele verschiedene Aktionskarten, welche das Spiel spannender machen.</p>
             <h3>Los geht’s</h3>
