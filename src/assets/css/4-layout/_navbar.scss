@@ -120,6 +120,7 @@
       width: 80px;
       color: $c-font-light;
       transition: left 0.5s ease;
+      z-index: 100;
 
       svg {
         width: 100%;

@@ -26,7 +26,43 @@ ul {
   padding: 0;
 }
 
+ol {
+  list-style: none;
+  padding-left: 2.5em;
+  counter-reset: item;
+
+  li {
+    counter-increment: item;
+    position: relative;
+
+    &:not(:last-of-type) {
+      margin-bottom: 1.5em;
+    }
+
+    &::before {
+      font-size: 1.2em;
+      font-family: $f-family-heading;
+      font-weight: $f-weight-heading;
+      color: $c-green;
+      top: -0.2em;
+      left: -2em;
+      position: absolute;
+      margin-right: 1em;
+      content: counter(item);
+      display: block;
+    }
+  }
+}
+
 img,
 iframe {
   max-width: 100%;
+}
+
+// Breakpoint
+
+@include respond-to($breakpoint-large) {
+  ol {
+    padding: 0;
+  }
 }
