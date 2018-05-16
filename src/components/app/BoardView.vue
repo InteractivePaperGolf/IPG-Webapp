@@ -4,7 +4,7 @@
             <h1 class="site-title">Spielplan</h1>
             <p>Eines der wichtigsten Elemente von Papergolf ist natürlich der Spielplan. Damit du gleich loslegen kannst, haben wir bereits einen kompletten Spielplan gestaltet, der aus 18 Bahnen besteht (wie beim richtigen Golf). Diesen kannst du gleich hier downloaden und ausdrucken.</p>
             <h2>Spielplan Download</h2>
-            <a href="https://papergolf.ch/assets/spielplan.pdf" target="blank" class="btn download-btn">
+            <a href="https://papergolf.ch/assets/pdf/spielplan.pdf" target="blank" class="btn download-btn">
                 <img src="../../../static/img/ui/pdf-icon.svg" alt="PDF" class="download-btn__img">
                 <p class="download-btn__text">Spielplan.pdf</p>
             </a>
