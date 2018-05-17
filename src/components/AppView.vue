@@ -19,6 +19,7 @@
                         <li><router-link class="navbar__link" to="/rules"><icon name="book" class="navbar__icon"></icon><span class="navbar__text">Regeln</span></router-link></li>
                         <li><router-link class="navbar__link" to="/board"><icon name="file" class="navbar__icon"></icon><span class="navbar__text">Spielplan</span></router-link></li>
                         <li><router-link class="navbar__link" to="/help"><icon name="help-circle" class="navbar__icon"></icon><span class="navbar__text">Hilfe</span></router-link></li>
+                        <li><a class="navbar__link" href="https://www.buymeacoffee.com/papergolf" target="_blank"><icon name="award" class="navbar__icon"></icon><span class="navbar__text">Supporte uns</span></a></li>
                     </ul>
                 </nav>
                 <p class="copyright small">&copy; 2018 by Papergolf.ch</p>
