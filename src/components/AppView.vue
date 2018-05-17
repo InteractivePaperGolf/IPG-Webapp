@@ -22,7 +22,7 @@
                         <li><a class="navbar__link" href="https://www.buymeacoffee.com/papergolf" target="_blank"><icon name="award" class="navbar__icon"></icon><span class="navbar__text">Supporte uns</span></a></li>
                     </ul>
                 </nav>
-                <p class="copyright small">&copy; 2018 by Papergolf.ch</p>
+                <p class="copyright small">&copy; 2018 by <a href="http://papergolf.ch" class="positiv">papergolf.ch</a></p>
             </div>
         </div>
         <div class="content" :class="{ 'scroll': $route.path != '/' }">
